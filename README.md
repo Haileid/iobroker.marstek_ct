@@ -105,15 +105,14 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### 0.1.1 (2025-08-28)
-* (soulforged) initial release
-
-### **WORK IN PROGRESS**
+### 0.1.2 (2025-08-28)
 
 - Initial release with polling support
 - Added configuration via Admin-UI
 - Supports Marstek CT device via UDP
 
+### 0.1.1 (2025-08-28)
+* (soulforged) initial release
 
 ## License
 MIT License

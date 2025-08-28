@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "marstek_ct",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "news": {
+      "0.1.2": {
+        "en": "Initial release with polling support\nAdded configuration via Admin-UI\nSupports Marstek CT device via UDP",
+        "de": "Erste Veröffentlichung mit Bestäubungsunterstützung\nKonfiguration über Admin-UI hinzugefügt\nUnterstützt Marstek CT Gerät über UDP",
+        "ru": "Первоначальный релиз с поддержкой опросов\nДобавлена конфигурация через Admin-UI\nПоддержка Marstek CT через UDP",
+        "pt": "Lançamento inicial com apoio à votação\nAdicionada configuração através do Admin- UI\nSuporta dispositivo de CT Marstek via UDP",
+        "nl": "Eerste release met peiling ondersteuning\nConfiguratie toegevoegd via Admin-UI\nOndersteunt Marstek CT-apparaat via UDP",
+        "fr": "Libération initiale avec appui au scrutin\nAjout de la configuration via Admin-UI\nSupporte l'appareil Marstek CT via UDP",
+        "it": "Rilascio iniziale con supporto inquinante\nConfigurazione aggiunta tramite Admin-UI\nSupporta il dispositivo Marstek CT tramite UDP",
+        "es": "Comunicado inicial con apoyo electoral\nConfiguración agregada mediante Admin-UI\nAdmite el dispositivo Marstek CT a través de UDP",
+        "pl": "Początkowe wydanie z obsługą wyborczą\nDodano konfigurację poprzez Admin- UI\nObsługuje urządzenie Marstek CT poprzez UDP",
+        "uk": "Початковий реліз з підтримкою опитування\nДодано конфігурацію за допомогою Admin-UI\nПідтримує пристрій Marstek CT через UDP",
+        "zh-cn": "在投票支助下初步释放\n通过行政界面添加配置\n通过 UDP 支持 Marstek CT 设备"
+      },
       "0.1.1": {
         "en": "initial release",
         "de": "erstausstrahlung",
