@@ -1,0 +1,90 @@
+{
+	"common": {
+		"name": "marstek_ct",
+		"version": "0.1.0",
+		"news": {
+			"0.1.0": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Marstek CT",
+			"de": "Marstek Ct",
+			"ru": "Marstek Ct",
+			"pt": "Marstek Ct",
+			"nl": "Marstek CT",
+			"fr": "Marstek CT",
+			"it": "Marstek CT",
+			"es": "Marstek CT",
+			"pl": "Marstek Ct",
+			"uk": "Marstek Ct",
+			"zh-cn": "Marstek Ct"
+		},
+		"desc": {
+			"en": "Connect to Marstek CT smart meters and receive data",
+			"de": "Stellen Sie eine Verbindung zu Marstek CT Smart Meter her und empfangen Sie Daten",
+			"ru": "Подключитесь к интеллектуальным счетчикам Marstek CT и получению данных",
+			"pt": "Conecte -se a Marstek CT Smart Meters e receba dados",
+			"nl": "Maak verbinding met Marstek CT Smart Meters en ontvang gegevens",
+			"fr": "Connectez-vous à Marstek CT Smart Meters et recevez des données",
+			"it": "Connettiti a contatori intelligenti di Marstek CT e ricevi dati",
+			"es": "Conectarse a los medidores inteligentes de Marstek CT y recibir datos",
+			"pl": "Połącz się z MARSTEK CT Smart Meters i odbieraj dane",
+			"uk": "Підключіться до Marstek Ct Smart Liters та отримайте дані",
+			"zh-cn": "连接到Marstek CT智能电表并接收数据"
+		},
+		"authors": [
+			"soulforged"
+		],
+		"keywords": [
+			"marstek",
+			"ct",
+			"smart meter"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "marstek_ct.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/Haileid/ioBroker.marstek_ct/main/admin/marstek_ct.png",
+		"readme": "https://github.com/Haileid/ioBroker.marstek_ct/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "energy",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": ">=7.0.23"
+			}
+		]
+	},
+	"native": {
+		"option1": true,
+		"option2": "42"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

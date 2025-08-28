@@ -1,0 +1,74 @@
+{
+  "i18n": true,
+  "type": "panel",
+  "items": {
+    "host": {
+      "type": "text",
+      "name": "host",
+      "label": "CT Device IP Address",
+      "default": "192.168.1.100",
+      "tooltip": "IP address of the CT device (e.g. 192.168.1.100)",
+      "newLine": true
+    },
+	"ctType": {
+	  "type": "select",
+	  "name": "ctType",
+	  "label": "CT Type",
+	  "default": "HME-4",
+	  "tooltip": "Select the CT type",
+	  "options": [
+		{ "label": "CT002 (HME-4)", "value": "HME-4" },
+		{ "label": "CT003 (HME-3)", "value": "HME-3" }
+	  ],
+	  "newLine": true
+	},
+	"ctMac": {
+      "type": "text",
+      "name": "ctMac",
+      "label": "CT MAC Address",
+      "default": "aabbcc112233",
+      "tooltip": "MAC address of the CT unit",
+      "newLine": true
+    }, 
+	"deviceType": {
+	  "type": "select",
+	  "name": "deviceType",
+	  "label": "Battery Device Type",
+	  "default": "JPLS-8H",
+	  "tooltip": "Select the battery device type",
+	  "options": [
+		{ "label": "B2500 v1 (HMB-1)", "value": "HMB-1" },
+		{ "label": "B2500 v2 (HMA-1)", "value": "HMA-1" },
+		{ "label": "Jupiter C Plus (JPLS-8H)", "value": "JPLS-8H" },
+		{ "label": "Jupiter C (HMM-1)", "value": "HMM-1" },
+		{ "label": "Jupiter E (HMN-1)", "value": "HMN-1" },
+		{ "label": "Venus (HMG-50)", "value": "HMG-50" }
+	  ],
+	  "newLine": true
+	},
+    "batteryMac": {
+      "type": "text",
+      "name": "batteryMac",
+      "label": "Battery MAC Address",
+      "default": "aabbcc112233",
+      "tooltip": "MAC address of the battery unit",
+      "newLine": true
+    },
+    "pollRate": {
+      "type": "number",
+      "name": "pollRate",
+      "label": "Poll Rate (seconds)",
+      "default": 10,
+      "min": 1,
+      "max": 3600,
+      "tooltip": "Interval in seconds for polling data from the device",
+      "newLine": true
+    },
+	"infoText": {
+	  "type": "label",
+	  "label": "You can find the mac address in your Marstek App. Its noted without - or :. Device Types for both battery and CT are displayed when you try to share them.",
+	  "newLine": true
+	}
+
+  }
+}
