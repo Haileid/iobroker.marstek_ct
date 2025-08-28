@@ -110,6 +110,10 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 
 ### **WORK IN PROGRESS**
 
+- Initial release with polling support
+- Added configuration via Admin-UI
+- Supports Marstek CT device via UDP
+
 
 ## License
 MIT License
