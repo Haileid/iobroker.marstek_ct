@@ -108,6 +108,9 @@ Please refer to the [`dev-server` documentation](https://github.com/ioBroker/dev
 ### 0.1.1 (2025-08-28)
 * (soulforged) initial release
 
+### **WORK IN PROGRESS**
+
+
 ## License
 MIT License
 
