@@ -12,6 +12,8 @@
 
 ## marstek_ct adapter for ioBroker
 
+Based on the great work of d-shmt (https://github.com/d-shmt/hass_marstek-smart-meter/issues/4) basically translated from Home Assisstant to ioBroker.
+
 Connect to Marstek CT smart meters and receive data
 
 ## Changelog
