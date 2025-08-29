@@ -1,6 +1,6 @@
 {
   "name": "iobroker.marstek_ct",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Connect to Marstek CT smart meters and receive data",
   "author": {
     "name": "soulforged",

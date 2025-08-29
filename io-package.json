@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "marstek_ct",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "news": {
+      "0.1.1": {
+        "en": "Update Readme",
+        "de": "Update Reader",
+        "ru": "Обновление Readme",
+        "pt": "Actualizar a Leitura",
+        "nl": "Readme bijwerken",
+        "fr": "Mettre à jour Readme",
+        "it": "Aggiornamento",
+        "es": "Actualización Readme",
+        "pl": "Aktualizacja Readme",
+        "uk": "Оновлення Readme",
+        "zh-cn": "更新读取器"
+      },
       "0.1.0": {
         "en": "Initial Release",
         "de": "Erstausstrahlung",

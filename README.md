@@ -21,7 +21,7 @@ Connect to Marstek CT smart meters and receive data
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 0.1.1 (2025-08-29)
 - Update Readme
 
 ### 0.1.0 (2025-08-29)
