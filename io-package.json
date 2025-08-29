@@ -1,7 +1,7 @@
 {
   "common": {
     "name": "marstek_ct",
-    "version": "0.1.2",
+    "version": "0.0.1",
     "news": {
       "0.0.1": {
         "en": "Initial release with polling support\nAdded configuration via Admin-UI\nSupports Marstek CT device via UDP",
